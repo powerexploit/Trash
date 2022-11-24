@@ -1,4 +1,4 @@
-<h1 align="center">Strike</h1>
+<h1 align="center">Ninja</h1>
 <p align="center">
     <img src="https://img.shields.io/badge/python-v3-blue" alt="python badge">
 </p>
