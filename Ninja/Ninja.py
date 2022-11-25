@@ -39,8 +39,8 @@ class AwsSecretExtractor:
 if __name__ == "__main__":
     print(cli())
     argparse = argparse.ArgumentParser()
-    argparse.add_argument("--p", "--pool", help="aws pool ID to fetch the secrets")
-    argparse.add_argument("--r", "--region", help="aws region name to fetch the secrets")
+    argparse.add_argument("-p", "--pool", help="aws pool ID to fetch the secrets")
+    argparse.add_argument("-r", "--region", help="aws region name to fetch the secrets")
     args = argparse.parse_args()
 
 
